@@ -23,11 +23,15 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+> If you downloaded the repo from GitHub, the `.venv` folder is typically not included. Create the virtual environment locally before running the game.
+
 ## Run
 
 ```powershell
 python main.py
 ```
+
+Or double-click `run.bat` to run the game. It will use `.venv\Scripts\python.exe` if available, or fall back to `python` on your PATH.
 
 ## Controls
 
@@ -41,3 +45,4 @@ python main.py
 - Collect cherry blossom power-ups to gain temporary advantages
 - The score increases over time and with dodged obstacles
 - Try to beat your high score!
+
